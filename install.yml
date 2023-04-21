@@ -1,0 +1,9 @@
+---
+- name: Install Vim and Zip
+  hosts: all
+  become: true
+
+  tasks:
+  - name: Install Vim and Zip packages
+    apt:
+      name: [vim, zip]
