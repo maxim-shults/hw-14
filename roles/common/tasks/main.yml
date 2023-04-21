@@ -1,0 +1,5 @@
+---
+- name: Install Vim and Zip packages
+  apt:
+    name: [vim, zip]
+    state: present
